@@ -1,0 +1,120 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: cursive;
+    background-image: url(../img/bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;   
+    text-align: center;
+
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1{
+    position: relative;
+    font-size: 50px;
+    font-style: oblique;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    display: block;
+    color: #ffffff;
+    margin-bottom: 100px;
+    opacity: .8;
+}
+
+.logo{
+    margin-top: 15%;
+    
+}
+
+.input-text {
+  display: inline;
+  color: inherit;
+  width: 75%;
+  height: 40px;
+  font-family: inherit;
+  font-weight: inherit;
+  border: none;
+  border-radius: 0.4rem;
+  padding-left: 5px;
+  left:0;
+}
+
+.input-text::-webkit-input-placeholder {
+  color: #B0BEC5;
+}
+
+.input-text:-ms-input-placeholder {
+  color: #B0BEC5;
+}
+
+.input-text::-ms-input-placeholder {
+  color: #B0BEC5;
+}
+
+.input-button{
+    display: inline;
+    color: inherit;
+    width: 20%;
+    height: 40px;
+    background-color: #39416f;
+    font-family: inherit;
+    font-weight: inherit;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+} 
+
+.input-button:hover{
+    background-color: #3f4773;
+    transition: .4s;
+}
+
+h2{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.link-wrap{
+    margin-top: 40%;
+}
+.link-wrap ul li
+{
+    display: inline-flex;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.social a{
+    text-align:center;
+    width: 32px;
+    height:32px;
+    float:left;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 400px) {
+    .link-wrap{
+        margin-top: 50%;
+    }  
+}
